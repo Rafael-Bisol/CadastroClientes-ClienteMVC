@@ -1,0 +1,13 @@
+CREATE DATABASE dbLucas27_06_24;
+USE dbLucas27_06_24;
+CREATE TABLE Cliente (
+    ID_Cliente INT AUTO_INCREMENT PRIMARY KEY,
+    Nome VARCHAR(255) NOT NULL,
+    Endereco VARCHAR(255),
+    Telefone VARCHAR(20),
+    RG VARCHAR(20),
+    CPF VARCHAR(20),
+    Email VARCHAR(255)
+);
+
+SELECT * FROM Cliente;
